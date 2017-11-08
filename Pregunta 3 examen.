@@ -1,0 +1,19 @@
+//Braian Adair Maldonado Luna.
+//Examen; física computacional.
+//Diagrama de flujo. El programa se inicializa con 1 y entra al while que viene en seguida ya que es menor que 5, 
+//el programa verifica si es divisible entre 3 y si no lo es le suma 2, as{i hasta que la suma exceda 5 que es 
+//donde se detiene el programa y te imprime los números obtenidos. Que, por la condición inicial, siempre serán 1 y 5.
+//Los impares y primos del 1 al 5 exceptuando el 3.
+#include <iostream>
+using namespace std;
+
+int main (){
+  int x=1;
+  while(x<=5){
+     if (x%3==0){
+      x=x+2;}
+     else {cout<<x<<endl;
+      x=x+2;}
+}
+  return 0;
+}
